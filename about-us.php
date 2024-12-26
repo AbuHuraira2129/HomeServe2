@@ -47,9 +47,9 @@ include 'C:\xampp\htdocs\HomeServe\includes\header.php';
                         <p>Co-Founder & CTO</p>
                     </div>
                     <div class="team-member">
-                        <img src="./assets/images/351118943_287186356995664_2058207614631269064_n.jpg"
+                        <img src="https://www.pixelstalk.net/wp-content/uploads/2016/10/Cute-Beautiful-Girl-Background.jpg"
                             alt="Team Member 3">
-                        <h3>Aashan</h3>
+                        <h3>Nayab</h3>
                         <p>Lead Developer</p>
                     </div>
                 </div>

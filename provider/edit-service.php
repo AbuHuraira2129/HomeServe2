@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <main>
         <section class="edit-service">
-            <div class="container">
+            <div class="container3">
                 <h1>Edit Service</h1>
                 <form action="edit-service.php?id=<?= $service['id'] ?>" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
@@ -103,7 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <label for="service_image">Service Image</label>
                         <input type="file" id="service_image" name="service_image">
                     </div>
-                    <button type="submit" class="btn btn-primary">Update Service</button>
+                    <button type="submit" class="btn-update">Update Service</button>
                 </form>
             </div>
         </section>

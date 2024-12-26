@@ -34,14 +34,15 @@ $services = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     <main>
         <section class="dashboard">
-            <div class="container">
-                <h1>Welcome to Your Dashboard</h1>
+            <div class="container3">
+
 
                 <div class="dashboard-actions">
+                    <h1>Welcome to Your Dashboard</h1>
                     <a href="add-service.php" class="btn btn-primary">Add New Service</a>
                 </div>
-
-                <h2>Your Services</h2>
+                <hr>
+                <h2 style="margin: 20px auto;">Your Services</h2>
 
                 <?php if (empty($services)) : ?>
                 <p>You haven't added any services yet. <a href="add-service.php">Add a Service</a></p>
@@ -57,8 +58,8 @@ $services = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <p><strong>Created On:</strong> <?= $service['created_at'] ?></p>
 
                         <div class="service-actions">
-                            <a href="edit-service.php?id=<?= $service['id'] ?>" class="btn btn-secondary">Edit</a>
-                            <a href="delete-service.php?id=<?= $service['id'] ?>" class="btn btn-danger"
+                            <a href="edit-service.php?id=<?= $service['id'] ?>" class="btn-edit btn-secondary">Edit</a>
+                            <a href="delete-service.php?id=<?= $service['id'] ?>" class="btn-delete btn-danger"
                                 onclick="return confirm('Are you sure you want to delete this service?');">Delete</a>
                         </div>
                     </div>

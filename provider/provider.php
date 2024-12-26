@@ -50,7 +50,7 @@ $providers = [
 
 <main>
     <section class="providers">
-        <div class="container">
+        <div class="container3">
             <h1>Our Providers</h1>
             <p>Explore the trusted providers and their services.</p>
 

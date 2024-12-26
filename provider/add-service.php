@@ -56,7 +56,7 @@ $provider_id = $_SESSION['user']['id'];
                         <label for="service_image">Service Image</label>
                         <input type="file" id="service_image" name="service_image">
                     </div>
-                    <button type="submit" class="btn btn-primary">Add Service</button>
+                    <button type="submit" class="btn-add">Add Service</button>
                 </form>
             </div>
         </section>
