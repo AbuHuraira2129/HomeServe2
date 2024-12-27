@@ -8,7 +8,7 @@ $provider_id = $_GET['id'];
 $providers = [
     1 => [
         'name' => 'John Doe',
-        'profile_image' => 'path/to/john-image.jpg',
+        'profile_image' => 'https://th.bing.com/th/id/OIP.fGzCnLqkdQNgHKwX8TsAwwHaE7?rs=1&pid=ImgDetMain',
         'description' => 'John Doe has over 10 years of experience in plumbing. He offers a wide range of plumbing services from installation to repairs. He ensures that every job is done with the utmost professionalism and efficiency.',
         'services' => [
             [
@@ -27,7 +27,7 @@ $providers = [
     ],
     2 => [
         'name' => 'Jane Smith',
-        'profile_image' => 'path/to/jane-image.jpg',
+        'profile_image' => 'https://th.bing.com/th/id/OIP.fGzCnLqkdQNgHKwX8TsAwwHaE7?rs=1&pid=ImgDetMain',
         'description' => 'Jane Smith is a professional electrician with years of experience in residential and commercial electrical systems. Whether you need wiring installation, lighting, or troubleshooting, Jane is here to help.',
         'services' => [
             [

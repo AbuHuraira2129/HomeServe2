@@ -24,7 +24,7 @@ $services = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     <main>
         <section class="services">
-            <div class="container">
+            <div class="container3">
                 <h1>Your Services</h1>
 
                 <?php if (empty($services)) : ?>
@@ -39,6 +39,7 @@ $services = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <p><strong>Price:</strong> $<?= $service['price'] ?></p>
                         <p><strong>Category:</strong> <?= $service['category'] ?></p>
                         <p><strong>Created On:</strong> <?= $service['created_at'] ?></p>
+                        <a href="service-detail.php?id=<?= $service['id'] ?>" class="btn">View Details</a>
                     </div>
                     <?php endforeach; ?>
                 </div>

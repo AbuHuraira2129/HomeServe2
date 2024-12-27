@@ -1,3 +1,3 @@
 <footer class="footer">
-    <p>&copy; <?php echo date('Y'); ?> HomeServe. All rights reserved.</p>
+    <p style="color:white;">&copy; <?php echo date('Y'); ?> HomeServe. All rights reserved.</p>
 </footer>
